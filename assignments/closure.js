@@ -5,6 +5,26 @@
 // The outer scope can be a parent function, or the top level of the script.
 
 
+
+ 
+function school(schoolName){
+  console.log (`${schoolName} is the best school ever`);
+
+  function track(TrackName) {
+    console.log(TrackName);
+
+    function cohort(cohortName){
+    
+    }//cohort
+    cohort('Web 23');
+  } //this closes the track
+  track('FullStack Web Dev');
+}// this closes the school 
+school('LambdaSchool')
+
+
+
+
 /* STRETCH PROBLEMS, Do not attempt until you have completed all previous tasks for today's project files */
 
 
